@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BaseText">
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="HeaderText" parent="BaseText">
+        <item name="android:fontFamily">@font/font_brown_medium</item>
+        <item name="android:textSize">@dimen/header_text_size</item>
+        <item name="android:textColor">@color/header_text</item>
+    </style>
+
+    <style name="ContentText" parent="BaseText">
+        <item name="android:fontFamily">@font/font_brown_medium</item>
+        <item name="android:textSize">@dimen/content_text_size</item>
+        <item name="android:textColor">@color/content_text</item>
+    </style>
+</resources>
