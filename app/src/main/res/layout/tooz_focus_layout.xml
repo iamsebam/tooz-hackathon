@@ -2,11 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000">
+    android:background="#000"
+    android:orientation="vertical">
 
     <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/star"
+        android:layout_width="match_parent"
+        android:layout_height="400px"
+        android:scaleType="fitCenter"
+        android:src="@drawable/pentagram" />
+
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_star" />
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Summmoning\nDark Lord"
+        android:textColor="#F00" />
 
 </LinearLayout>
