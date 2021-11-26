@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="Card">
+        <item name="android:layout_width">@dimen/card_width</item>
+        <item name="android:layout_height">@dimen/card_height</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:padding">@dimen/margin</item>
+    </style>
+
+    <style name="CardIcon">
+        <item name="android:layout_width">@dimen/icon_width</item>
+        <item name="android:layout_height">@dimen/icon_height</item>
+        <item name="tint">@color/white</item>
+    </style>
+
     <style name="BaseText">
         <item name="android:gravity">center</item>
     </style>
+
     <style name="HeaderText" parent="BaseText">
         <item name="android:fontFamily">@font/font_brown_medium</item>
         <item name="android:textSize">@dimen/header_text_size</item>
