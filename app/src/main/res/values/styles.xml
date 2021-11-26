@@ -7,10 +7,14 @@
         <item name="android:padding">@dimen/margin</item>
     </style>
 
-    <style name="CardIcon">
+    <style name="BaseIcon">
+        <item name="tint">@color/white</item>
+    </style>
+
+    <style name="CardIcon" parent="BaseIcon">
         <item name="android:layout_width">@dimen/icon_width</item>
         <item name="android:layout_height">@dimen/icon_height</item>
-        <item name="tint">@color/white</item>
+
     </style>
 
     <style name="BaseText">
